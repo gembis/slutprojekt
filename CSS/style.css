@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(97, 146, 105);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(230, 191, 146);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #8f6442;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #815d42;
+    background-color: rgb(212, 175, 134);
+  }
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    color: #8f6442;
+    background-color: rgb(230, 191, 146);
+    padding: 10px 20px 10px 20px;
+}
+
+.openbtn:hover {
+    color: #815d42;
+    background-color: rgb(206, 171, 132);
+    animation-name: openbtn;
+    animation-duration: .5s;
+}
+
+@keyframes openbtn {
+    from {background-color: rgb(230, 191, 146);}
+    to {background-color: rgb(206, 171, 132);}
+    from {color: #8f6442;}
+    to {color: #815d42;}
+}
+
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
