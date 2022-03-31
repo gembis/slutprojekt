@@ -22,6 +22,11 @@ h1 {
     width: 449px;
 }
 
+#welcometxt {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
 .homeshrooms {
     border: 3px solid #8f6442;
     background-color: #8f6442;
@@ -143,7 +148,7 @@ body {
 .sidenav a {
     padding: 8px 8px 8px 25px;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 40px;
     font-family: "Caveat";
     color: #8f6442;
     display: block;
@@ -181,6 +186,7 @@ body {
     padding-top: 60px;
 }
 
+/*Make Menu sticky*/
 .menubtn {
     color: #8f6442;
     background-color: rgb(252, 224, 182);
@@ -217,17 +223,158 @@ body {
     position: relative;
 }
 
+#marginbot {
+    height: 100px;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
 
 @media screen and (max-width: 2000px) {
-    .homeshrooms {width: 500px}
-    #blueshroom {left: 36%}
-    #blueshroomtxt {left: 36%; top: 33.5%}
+    .homeshrooms {width: 550px}
+    
+    #blueshroom {left: 32%}
+    #blueshroomtxt {left: 32%; top: 36.7%;}
+
+    #glowshroom {left: 67%;}
+    #glowshroomtxt {left: 67%; top: 41.6%;}
+
+    #redshroom {left: 43%; top: 52%;}
+    #redshroomtxt {left: 43%; top: 88.7%;}
+
+    .secres {left: 79%; top: 70%;}
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1960px) {
+    .homeshrooms { width: 450px;}
 
+    #blueshroom {left: 36%; top: 5%;}
+    #blueshroomtxt {left: 36%; top: 35%;}
+
+    #glowshroom {left: 69%; top: 15%;}
+    #glowshroomtxt {left: 69%; top: 44.1%;}
+
+    #redshroom {left: 47%; top: 55.5%;}
+    #redshroomtxt {left: 47%; top: 85.6%;}
+
+    .secres {left: 80%;}
+}
+
+@media screen and (max-width: 1740px) {
+    #welcome {width: 500px;}
+
+    .homeshrooms {width: 400px;}
+
+    #blueshroom {left: 42%; top: 5.4%;}
+    #blueshroomtxt {left: 42%; top: 34.7%;}
+
+    #glowshroom {left: 71.5%; top: 37%;}
+    #glowshroomtxt {left: 71.5%; top: 65.4%;}
+
+    #redshroom {left: 42%; top: 68%;}
+    #redshroomtxt {left: 42%; top: 97.3%;}
+
+    .secres {left: 77%; top: 82%;}
+}
+
+@media screen and (max-width: 1710px) {
+    #welcome {width: 1100px;}
+
+    #blueshroom {left: 1.2%; top: 100%;}
+    #blueshroomtxt {left: 1.2%; top: 150%;}
+
+    #glowshroom {left: 34%; top: 100%;}
+    #glowshroomtxt {left: 34%; top: 148.4%;}
+
+    #redshroom {left: 65.8%; top: 100%;}
+    #redshroomtxt {left: 65.8%; top: 150%;}
+
+    .secres {left: 1.2%; top: 166%;}
+}
+
+@media screen and (max-width: 1680px) {
+    #welcome {width: 1100px;}
+
+    .homeshrooms {width: 370px;}
+
+    #blueshroom {left: 1.2%; top: 100%;}
+    #blueshroomtxt {left: 1.2%; top: 146.5%;}
+
+    #glowshroom {left: 32.4%; top: 100%;}
+    #glowshroomtxt {left: 32.4%; top: 145%;}
+
+    #redshroom {left: 63.6%; top: 100%;}
+    #redshroomtxt {left: 63.6%; top: 146.5%;}
+
+    .secres {left: 1.2%; top: 166%;}
+}
+
+@media screen and (max-width: 1520px) {
+    #welcome {width: 1000px;}
+
+    .homeshrooms {width: 320px;}
+
+    #blueshroom {left: 1.2%; top: 100%;}
+    #blueshroomtxt {left: 1.2%; top: 137.2%;}
+
+    #glowshroom {left: 31.8%; top: 100%;}
+    #glowshroomtxt {left: 31.8%; top: 136.1%;}
+
+    #redshroom {left: 62.2%; top: 100%;}
+    #redshroomtxt {left: 62.2%; top: 137.2%;}
+
+    .secres {left: 1.2%; top: 156%;}
+}
+
+@media screen and (max-width: 1435px) {
+    #welcome {width: 500px;}
+
+    .homeshrooms {width: 320px;}
+
+    #blueshroom {left: 62.5%; top: 5%;}
+    #blueshroomtxt {left: 62.5%; top: 28.5%;}
+
+    #glowshroom {left: 62.5%; top: 41.3%;}
+    #glowshroomtxt {left: 62.5%; top: 64.1%;}
+
+    #redshroom {left: 62.5%; top: 76.1%;}
+    #redshroomtxt {left: 62.5%; top: 99.6%;}
+
+    .secres {left: 1.6%; top: 100%;}
+}
+
+@media screen and (max-width: 1180px) {
+    #welcome {width: 500px;}
+
+    .homeshrooms {width: 528px;}
+
+    #blueshroom {position: static; margin-top: 2%; margin-bottom: -0.7%;}
+    #blueshroomtxt {position: static;}
+
+    #glowshroom {position: static; margin-top: 2%; margin-bottom: -0.7%;}
+    #glowshroomtxt {position: static;}
+
+    #redshroom {position: static; margin-top: 2%; margin-bottom: -0.7%;}
+    #redshroomtxt {position: static; margin-bottom: 10%;}
+
+    .secres {position: static;}
+}
+
+@media screen and (max-width: 1180px) {
+    #welcome {width: 500px;}
+
+    .homeshrooms {width: 528px;}
+
+    #blueshroom {position: static; margin-top: 2%; margin-bottom: -0.7%;}
+    #blueshroomtxt {position: static;}
+
+    #glowshroom {position: static; margin-top: 2%; margin-bottom: -0.7%;}
+    #glowshroomtxt {position: static;}
+
+    #redshroom {position: static; margin-top: 2%; margin-bottom: -0.7%;}
+    #redshroomtxt {position: static; margin-bottom: 10%;}
+
+    .secres {position: static; font-size: 30px;}
 }
