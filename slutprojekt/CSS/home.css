@@ -325,8 +325,6 @@ body {
     }
   }
 
-
-
 @media screen and (max-height: 450px) {
     #mySidenav {padding-top: 15px;}
     #mySidenav a {font-size: 25px;}
@@ -428,7 +426,7 @@ body {
 
     .secres {left: 1.2%; top: 169%;}
 
-    #marginbot {height: 0px;}
+    #marginbot {height: 5%;}
 }
 
 @media screen and (max-width: 1520px) {
@@ -627,4 +625,39 @@ body {
     .secres {position: static; font-size: 30px;}
 
     #marginbot {height: 50px;}
+}
+
+@media screen and (max-width: 422px) {
+    h1, #welcome, .homeshrooms {
+        width: 100%;
+    }
+
+    #blueshroomtxt, #glowshroomtxt, #redshroomtxt {
+        font-size: 24px;
+    }
+
+    #main {
+        padding-left: 0;
+        padding-right: 35px;
+    }
+
+    .secres {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #blueshroomtxt, #glowshroomtxt, #redshroomtxt {
+        font-size: 20px;
+    }
+
+    .secres {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 235px) {
+    #blueshroomtxt, #glowshroomtxt, #redshroomtxt {
+        font-size: 16px;
+    }
 }

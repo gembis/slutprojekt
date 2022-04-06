@@ -1,3 +1,209 @@
 body {
-    background-color: aqua;
+    background-color: rgb(97, 146, 105);
+}
+
+h1 {
+    background-color: rgb(252, 224, 182);
+    color: #8f6442;
+    font-family: "Caveat";
+    font-size: 46px;
+    width: max-content;
+    padding: 6px 15px 6px 12px;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+}
+
+#photodump {
+    background-color: rgb(252, 224, 182);
+    color: #8f6442;
+    font-family: "Caveat";
+    padding: 6px 15px 6px 12px;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#photodumptxt {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 34px;
+}
+
+.menubtn {
+    color: #8f6442;
+    background-color: rgb(252, 224, 182);
+    padding: 5px 12px 6px;
+    font-family: "Caveat";
+    font-size: 24px;
+    font-weight: bold;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+    width: max-content;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}
+
+.menubtn:hover {
+    color: #815d42;
+    background-color: rgb(226, 202, 166);
+    animation-name: menubtn;
+    animation-duration: .5s;
+}
+
+@keyframes menubtn {
+    from {background-color: rgb(252, 224, 182);}
+    to {background-color: rgb(226, 202, 166);}
+    from {color: #8f6442;}
+    to {color: #815d42;}
+}
+
+#mySidenav {
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(252, 224, 182);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#mySidenav a {
+    padding: 8px 8px 8px 25px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Caveat";
+    color: #8f6442;
+    display: block;
+    transition: .3s;
+}
+
+#mySidenav a:hover {
+    color: #815d42;
+    background-color: rgb(238, 212, 172);
+  }
+
+  #mySidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    font-size: 50px;
+    font-family: "Caveat";
+    margin-left: 50px;
+    padding: 0px 15px 0px 11px;
+    text-decoration: none;
+    color: #8f6442;
+    transition: .3s;
+}
+
+#mySidenav .closebtn:hover {
+    color: #815d42;
+    background-color: rgb(238, 212, 172);
+}
+
+#mySidenavBG {
+    background-color: #8f6442;
+    font-family: "Caveat";
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.topnav {
+    display: none;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    position: relative;
+}
+
+#marginbot {
+    height: 0px;
+}
+
+.row {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.column {
+    width: 600px;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+#tootall {
+    width: 300px;
+}
+
+#tooshort {
+    width: 700px;
+}
+
+@media screen and (max-width: 1100px) { 
+    #photodumptxt {font-size: 30px;}
+}
+
+@media screen and (max-width: 768px) { 
+    h1 {margin-bottom: 3%;}
+
+    #photodumptxt {
+        font-size: 24px;
+    }
+
+    .menubtn {
+        display: none;
+    }
+
+    #mySidenav, #mySidenavBG {
+        display: none;
+    }
+
+    .topnav {
+        background-color: rgb(252, 224, 182);
+        overflow: hidden;
+        display: block;
+        border: 4px solid #8f6442;
+        border-radius: 10px;
+    }
+    
+    .topnav a {
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #8f6442;
+        font-family: "Caveat";
+    }
+    
+    .topnav a:hover {
+        background-color: rgb(226, 202, 166);
+        color: #815d42;
+    }
+}
+
+@media screen and (max-width: 550px) { 
+    h1 {margin-bottom: 3%;}
+
+    #photodumptxt {font-size: 24px;}
 }

@@ -290,7 +290,7 @@ clear: both;
     padding: 6px 15px 6px 12px;
     border: 4px solid #8f6442;
     border-radius: 10px;
-    margin-top: 36px;
+    margin-top: 3%;
 }
 
 #chantarelle, #amanita, #amethyst, #violetcoral {
@@ -384,22 +384,90 @@ clear: both;
 }
 
 @media screen and (max-width: 600px) {
-    .skip {font-size: 20px;}
-    .numbertext {font-size: 14px;}
-    .text {font-size: 14px;}
-    .slideshow-container {width: 100%;}
-    .variantstxt {font-size: 26px;}
-    .backtop {font-size: 28px;}
-    #chantarelle, #amanita, #amethyst, #violetcoral {width: 100%;}
+    .skip {
+        font-size: 20px;
+    }
+
+    .numbertext {
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .slideshow-container {
+        width: 100%;
+    }
+
+    .variantstxt {
+        font-size: 26px;
+    }
+
+    .backtop {
+        font-size: 28px;
+    }
+
+    #chantarelle, #amanita, #amethyst, #violetcoral {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 450px) {
-    .skip {font-size: 15px;}
-    .variantstxt {font-size: 22px;}
-    .backtop {font-size: 26px;}
+    .skip {
+        font-size: 15px;
+    }
+
+    .variantstxt {
+        font-size: 22px;
+    }
+
+    .backtop {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    h1{
+        width: 100%;
+    }
+
+    .skip {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 314px) {
+    .variants {
+        width: 100%;
+        margin-top: 30%;
+    }
 }
 
 @media only screen and (max-width: 300px) {
-    .text {font-size: 11px;}
-    .numbertext {font-size: 12px;}
+    .text {
+        font-size: 11px;
+    }
+
+    .numbertext {
+        font-size: 12px;
+    }
+
+    .skip {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .variants {
+        font-size: 20px;
+    }
+
+    .skip {
+        font-size: 8px;
+    }
 }
