@@ -286,6 +286,7 @@ body {
     color: #ccc;
     padding: 10px 0;
     height: 150px;
+    font-size: 24px;
   }
   
   /* Add Animation */
@@ -522,6 +523,10 @@ body {
     .secres {position: static; font-size: 30px;}
 
     #marginbot {height: 50px;}
+
+    #caption {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -630,6 +635,10 @@ body {
     .secres {position: static; font-size: 30px;}
 
     #marginbot {height: 50px;}
+
+    #caption {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 422px) {
@@ -689,5 +698,9 @@ body {
 @media screen and (max-width: 235px) {
     #blueshroomtxt, #glowshroomtxt, #redshroomtxt {
         font-size: 16px;
+    }
+
+    #caption {
+        font-size: 14px;
     }
 }
