@@ -26,12 +26,12 @@
     <body>
         
         <!-- Use any element to open the sidenav -->
-        <div class="menubtn" onclick="openNav()">
-            <div>&#9776</div>
-        </div>
+        <button class="menubtn" onclick="openNav()">
+            <a>&#9776</a>
+        </button>
 
         <div id="mySidenav">
-            <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</div>
+            <button href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</button>
             <a href="./index.html">Home</a>
             <a href="./species.html">Mushroom Species</a>
             <a href="./recipes.html">Recipes</a>
@@ -72,16 +72,20 @@
             <img class="homeshrooms" id="redshroom" src="../HTML/Images/amanitamuscaria.jpg" alt="Two big, red toadstools in some moss">
                 <div class="homeshroomstxt" id="redshroomtxt">Amanita Muscaria</div>
 
-            <div id="myImg" class="secres">button of secres hihi :></div>
+            <button id="myImg" class="secres">button of secres hihi :></button>
               
             <!-- The Modal -->
             <div id="myModal" class="modal">
-            <span class="close">&times;</span>
+            <button class="close">&times;</button>
             <img class="modal-content" id="myImg" src="./Images/sussy.gif" alt="Sussy guy">
             <div id="caption"></div>
             </div>
             
             <script src="../JS/secres.js"></script>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top please!</button>
+
+           <script src="../JS/totop.js"></script>
 
         </div>
     </body>

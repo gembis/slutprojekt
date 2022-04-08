@@ -25,12 +25,12 @@
     <body>
 
         <!-- Use any element to open the sidenav -->
-        <div class="menubtn" onclick="openNav()">
-            <div>&#9776</div>
-        </div>
+        <button class="menubtn" onclick="openNav()">
+            <a>&#9776</a>
+        </button>
 
         <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <button href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</button>
             <a href="./index.html">Home</a>
             <a href="./species.html">Mushroom Species</a>
             <a href="./recipes.html">Recipes</a>
@@ -75,6 +75,10 @@
                 </div>
             
             </div>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top please!</button>
+
+           <script src="../JS/totop.js"></script>
 
         </div>
 
