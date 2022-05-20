@@ -1,4 +1,7 @@
-"use strict"
+(function () {
+'use strict';
+// this function is strict...
+}());
 
 let slideIndex = 0;
 showSlides();
@@ -11,7 +14,7 @@ function showSlides() {
     slides[i].style.display = "none";  
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1;}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }

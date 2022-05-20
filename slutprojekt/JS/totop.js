@@ -1,3 +1,8 @@
+(function () {
+'use strict';
+// this function is strict...
+}());
+
 mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 100px from the top of the document, show the button
